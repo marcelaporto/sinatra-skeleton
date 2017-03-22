@@ -7,6 +7,10 @@ gem 'pg'
 gem 'sinatra', '~> 1.0'
 gem 'sinatra-contrib'
 
+gem 'bcrypt'
+gem 'json'
+gem 'faker'
+
 gem 'activesupport', '~>4.2.0'
 gem 'activerecord', '~>4.2.0'
 
@@ -23,6 +27,5 @@ end
 
 group :test, :development do
   gem 'factory_girl'
-  gem 'faker'
   gem 'pry-byebug'
 end
